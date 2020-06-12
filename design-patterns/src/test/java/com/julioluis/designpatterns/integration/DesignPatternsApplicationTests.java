@@ -1,5 +1,6 @@
-package com.julioluis.designpatterns;
+package com.julioluis.designpatterns.integration;
 
+import com.julioluis.designpatterns.Algoritmo;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
