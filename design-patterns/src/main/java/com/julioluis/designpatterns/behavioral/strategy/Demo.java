@@ -1,6 +1,9 @@
 package com.julioluis.designpatterns.behavioral.strategy;
 
 public class Demo {
+    enum FormatType {
+        HTML,PLAIN
+    }
 
     public static void main(String[] args) {
 
@@ -18,6 +21,8 @@ public class Demo {
 
         result=multiply.calculate(request);
         System.out.println("Multiplication:: "+ result);
+
+        System.out.println(FormatType.HTML.toString().equals("HTML"));
 
 
     }
